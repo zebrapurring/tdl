@@ -1,6 +1,8 @@
-module github.com/iyear/tdl
+module github.com/zebrapurring/tdl
 
 go 1.25.8
+
+replace github.com/iyear/tdl => ./
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
@@ -21,6 +23,7 @@ require (
 	github.com/gotd/td v0.140.0
 	github.com/iancoleman/strcase v0.3.0
 	github.com/ivanpirog/coloredcobra v1.0.1
+	github.com/iyear/tdl v0.0.0-00010101000000-000000000000
 	github.com/iyear/tdl/core v0.20.2
 	github.com/iyear/tdl/extension v0.20.2
 	github.com/jedib0t/go-pretty/v6 v6.5.0
